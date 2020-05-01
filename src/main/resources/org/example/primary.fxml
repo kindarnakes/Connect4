@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import java.util.ArrayList?>
+
+<AnchorPane id="panel" fx:id="panel" onMouseClicked="#setColor" onMouseEntered="#start" prefHeight="503.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+    <children>
+        <SubScene height="401.0" layoutX="12.0" layoutY="14.0" width="467.0">
+            <root>
+                <Region />
+            </root>
+        </SubScene>
+        <Button id="salir" fx:id="salir" layoutX="47.0" layoutY="437.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="52.0" prefWidth="124.0" text="Salir" />
+        <Label id="turno" fx:id="turno" layoutX="269.0" layoutY="446.0" prefHeight="17.0" prefWidth="151.0" />
+        <VBox fx:id="co0" layoutX="14.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="a1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="a2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="a3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="a4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="a5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="a0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co1" layoutX="80.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="b1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="b2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="b3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="b4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="b5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="b0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co2" layoutX="146.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="c1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="c2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="c3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="c4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="c5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="c0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co3" layoutX="212.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="d1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="d2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="d3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="d4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="d5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="d0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co4" layoutX="278.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="e1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="e2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="e3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="e4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="e5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="e0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co5" layoutX="344.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="f1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="f2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="f3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="f4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="f5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="f0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+        <VBox fx:id="co6" layoutX="410.0" layoutY="14.0">
+            <children>
+                <Circle fx:id="g1" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="g2" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="g3" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="g4" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="g5" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="g0" fill="WHITE" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+            </children>
+        </VBox>
+    </children>
+
+   <fx:define>
+      <ArrayList fx:id="colums">
+         <fx:reference source="co0" />
+         <fx:reference source="co1" />
+         <fx:reference source="co2" />
+         <fx:reference source="co3" />
+         <fx:reference source="co4" />
+         <fx:reference source="co5" />
+         <fx:reference source="co6" />
+      </ArrayList>
+   </fx:define>
+</AnchorPane>
